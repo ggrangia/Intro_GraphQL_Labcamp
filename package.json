@@ -1,0 +1,22 @@
+{
+  "name": "graphqlapollo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "author": "Giacomo Grangia",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-engine": "^1.1.2",
+    "apollo-server": "^2.3.1",
+    "apollo-server-express": "^2.0.4",
+    "compression": "^1.7.3",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^4.0.3",
+    "nodemon": "^1.18.3"
+  }
+}
